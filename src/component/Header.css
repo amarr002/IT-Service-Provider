@@ -1,0 +1,14 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 90;
+    height: 80px;
+    background: transparent;
+    color: white;
+}
+.navbar.active{
+    background: white;
+    color: black;
+}
